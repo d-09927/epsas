@@ -1,0 +1,89 @@
+body {
+    margin: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background: url('img/login__.png') no-repeat center center fixed;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.inicio{
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 500px;
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid #e3d8d8;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.titulo {
+    width: 540px;
+    background-color: #2ecc71;
+    padding: 20px 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin: -20px -20px 10px -20px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    color: #555;
+    margin: 10px 0 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.campo .grupo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 100%;
+}
+
+input[type="text"]{
+    width: 450px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 2px solid #2ecc71;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin: 20px auto;
+    border-radius: 4px;
+    font-weight: bold;
+    display: block;
+}
+
+.links a {
+    color: #888;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.registro {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #383636;
+    text-align: right;
+}

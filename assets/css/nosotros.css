@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    color: rgb(229, 222, 214);
+}
+a{
+    color: rgb(253, 253, 253)
+}
+nav a{
+    font-weight: 600;
+    padding: 10px;
+}
+nav a:hover{
+    transition: 0.5s;
+    transform: scale(1.4);
+}
+header{
+    background-color: rgb(38, 166, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 0px;
+}
+.logo{
+    display: flex;
+    color:rgb(252, 251, 250)
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+.padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    font-family: sans-serif;
+}
+.titulo{
+    color: rgb(99, 95, 95);
+    font-size: 90px;
+    font-weight: 50px;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+.parrafo{
+    color: gray;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+    bottom: 50px;
+    padding: 30px;
+    margin: 60px 60px 60px 60px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/c_incorrecta.css">
+    <title>contraseña incorrecta</title>
+</head>
+<body>
+    <div class="inicio">
+        <div class="titulo">
+            <h1>EPSAS</h1>
+        </div>
+            <h2>Inicio de sesión</h2>
+                <form class="campo">
+                    <div class="grupo">
+                        <label for="email">correo electronico</label><br/>
+                        <input type="email" id="email" value=""><br/>
+                    </div>
+                    <div class="grupo">
+                        <label for="password">contraseña</label><br/>
+                        <input type="password" id="password" value=""><br/>
+                    </div>
+                <button class="enviar" onclick="nofuncion()">Inicio</button>
+                <script>function nofuncion(){alert("Contraseña incorrecta")};</script>
+                </form>
+                <div class="registro">Registrarse</div>
+                <div class="links">
+                    <a href="">¿olvidaste contraseña?</a>
+                </div>
+    </div>
+    <script src="contra_inc.js"></script>
+</body>
+</html>

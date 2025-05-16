@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Seguimiento</title>
+    <link rel="stylesheet" href="assets/css/bitacora.css">
+</head>
+<body>
+    <body>
+     <div class="barra">
+        
+        <div class="container">
+           
+            <div class="side" style="margin-top: 90px;">
+                <button onclick="usu()">
+                    <img src="assets/img/usuario (1).svg" alt="" style="width: 40px;">
+                    Usuario</button>
+            </div>
+            <div class="side" style="margin-top: 260px;">
+                <button onclick="noti()">
+                    <img src="assets/css/img/campana (1).svg" alt=""style=" width: 40px;">
+                    Notificacion</button>
+            </div>
+            <div class="side" style="margin-top: 110px;">
+                <button>
+                    <img src="assets/img/dejar.svg" alt="" style="width: 40px;">
+                    cerrar sesion </button>
+            </div>
+        </div>
+        <div class="contenido">
+            <header>
+                <h1 style="margin-left: 90px;">Tabla de <br>Seguimiento</h1>
+            </header>
+            <div class="reposive">
+            <div class="table">
+                <table>
+                  <tr>
+                    <th>APRENDIZ</th>
+                    <th>FECHA DE INICIO</th>
+                    <th>FECHA DE FINALIZACION</th>
+                    <th>NIVEL FORMATIVO</th>
+                    <th>CORREO ELECTRONICO</th>
+                    <th>INSTRUCTOR ASIGNADO</th>
+                    <th>BITACORA 1</th>
+                    <th>BITACORA 2</th>
+                    <th>BITACORA ESTADO</th>
+                  </tr>
+                  <tr>
+                    <td>ALONSO ORTIZ MUÑOZ</td>
+                    <td>15/02/2024</td>
+                    <td>15/08/2024</td>
+                    <td>TECNÓLOGO</td>
+                    <td>alonso@gmail.com</td>
+                    <td>EDGAR MAS</td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td> 
+                         <div class="ventana">
+                            <button id="btnShow" onclick="ShowHidden()">
+                            </button>
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                     <td>ALONSO ORTIZ MUÑOZ</td>
+                    <td>15/02/2024</td>
+                    <td>15/08/2024</td>
+                    <td>TECNÓLOGO</td>
+                    <td>alonso@gmail.com</td>
+                    <td>EDGAR MAS</td>
+                   <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td> 
+                         <div class="ventana">
+                            <button id="btnShow" onclick="ShowHidden()">
+                            </button>
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                     <td>ALONSO ORTIZ MUÑOZ</td>
+                    <td>15/02/2024</td>
+                    <td>15/08/2024</td>
+                    <td>TECNÓLOGO</td>
+                    <td>alonso@gmail.com</td>
+                    <td>EDGAR MAS</td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td> 
+                         <div class="ventana">
+                            <button id="btnShow" onclick="ShowHidden()">
+                            </button>
+                        </div>
+                    </td>
+                  </tr>
+                  <tr>
+                     <td>ALONSO ORTIZ MUÑOZ</td>
+                    <td>15/02/2024</td>
+                    <td>15/08/2024</td>
+                    <td>TECNÓLOGO</td>
+                    <td>alonso@gmail.com</td>
+                    <td>EDGAR MAS</td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td> 
+                         <div class="ventana">
+                            <button id="btnShow" onclick="ShowHidden()">
+                            </button>
+                        </div>
+                    </td>
+                  </tr>
+                  <tr> <td>ALONSO ORTIZ MUÑOZ</td>
+                    <td>15/02/2024</td>
+                    <td>15/08/2024</td>
+                    <td>TECNÓLOGO</td>
+                    <td>alonso@gmail.com</td>
+                    <td>EDGAR MAS</td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td> 
+                         <div class="ventana">
+                            <button id="btnShow" onclick="ShowHidden()">
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                     <td>ALONSO ORTIZ MUÑOZ</td>
+                    <td>15/02/2024</td>
+                    <td>15/08/2024</td>
+                    <td>TECNÓLOGO</td>
+                    <td>alonso@gmail.com</td>
+                    <td>EDGAR MAS</td>
+                   <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td> 
+                        <div class="ventana">
+                            <button id="btnShow" onclick="ShowHidden()">
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                     <td>ALONSO ORTIZ MUÑOZ</td>
+                    <td>15/02/2024</td>
+                    <td>15/08/2024</td>
+                    <td>TECNÓLOGO</td>
+                    <td>alonso@gmail.com</td>
+                    <td>EDGAR MAS</td>
+                   <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td> 
+                         <div class="ventana">
+                            <button id="btnShow" onclick="ShowHidden()">
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                     <td>ALONSO ORTIZ MUÑOZ</td>
+                    <td>15/02/2024</td>
+                    <td>15/08/2024</td>
+                    <td>TECNÓLOGO</td>
+                    <td>alonso@gmail.com</td>
+                    <td>EDGAR MAS</td>
+                   <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td> 
+                    <td>
+                         <div class="ventana">
+                            <button id="btnShow" onclick="ShowHidden()">
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                     <td>ALONSO ORTIZ MUÑOZ</td>
+                    <td>15/02/2024</td>
+                    <td>15/08/2024</td>
+                    <td>TECNÓLOGO</td>
+                    <td>alonso@gmail.com</td>
+                    <td>EDGAR MAS</td>
+                   <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td> 
+                        <div class="ventana">
+                            <button id="btnShow" onclick="ShowHidden()">
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                     <td>ALONSO ORTIZ MUÑOZ</td>
+                    <td>15/02/2024</td>
+                    <td>15/08/2024</td>
+                    <td>TECNÓLOGO</td>
+                    <td>alonso@gmail.com</td>
+                    <td>EDGAR MAS</td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td> 
+                         <div class="ventana">
+                            <button id="btnShow" onclick="ShowHidden()">
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                     <td>ALONSO ORTIZ MUÑOZ</td>
+                    <td>15/02/2024</td>
+                    <td>15/08/2024</td>
+                    <td>TECNÓLOGO</td>
+                    <td>alonso@gmail.com</td>
+                    <td>EDGAR MAS</td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td><img class="descarga" src="assets/img/descargar.svg" alt="" onclick="descarga()">  <img class="descarga" src="assets/img/libro-alt.svg" alt="" onclick="bitacora()"></td>
+                    <td> 
+            </div>
+        </div>
+                        <div class="ventana">
+                            <button id="btnShow" onclick="ShowHidden()"> 
+                            </button>
+                        </div>
+                            
+                    </td>
+                    
+                </tr>
+                
+                </table>
+                <button id="atras" onclick="atras()">atras</button>
+                </div>
+           <div class="popup" id="popup">
+            <div class="opcion" onclick="seleciona(this)">
+                <div class="estado-verde"></div> APROBADO
+            </div>
+            <div class="opcion" onclick="seleciona(this)">
+                <div class="estado-AMARILLO"></div> PENDIENTE
+            </div>
+            <div class="opcion" onclick="seleciona(this)">
+                <div class="estado-rojo"></div> REPROBADO
+            </div>
+            <textarea name="observaciones" id="observaciones" rows="3" placeholder="observaciones"></textarea>
+            <button id="enviar" onclick="enviar()">ENVIAR</button>
+            </div>
+                
+
+                 <div class="bitacora">
+        <div class="header">
+            <h3>BITACORA-ALONSO ORTIZ MUÑOZ</h3> <hr>
+        </div>
+
+        <div class="cuerpo">
+
+           <p>Este es un ejemplo de contenido de bitácora. En una implementación real, aquí se mostraría el contenido del documento.
+
+La bitácora contiene información sobre el progreso del aprendiz, actividades realizadas, competencias adquiridas y observaciones del instructor.nvbvbvvcvncxvcvvxcvcv.</p> 
+<p>
+    xcmvncxvhbxhfzxcvnbfhgbncxvncbxbvcxbnvvnb, bbbbncx,nvhfbhfdssgghhgfhdsbhbdbvnxbbvbhbfcxhbvnxbnvxzbvhhdf
+    gyfdsbnzcxbvnxzbhvhdsfjasjidjasuhfnjdvbcxnvbnbvncxbvhbhzbvcnvfybgfhvcnxb.v
+    cmnfjbnvhjdfsnvndsbvhdfhbgvfgds
+
+</p>
+        </div>
+        
+    </div>
+
+    <div class="usuario">
+        <div class="foto">
+            <img src="usuario (1).svg" alt="" >
+        </div>
+        admin
+        <div class="datos">
+            <p class="dato">&nbsp; pepito perez</p>
+            <p>pepitoperez520@gmail.com</p>
+        </div>
+     </div>
+
+     <div class="notificaciones">
+        <div class="notificaciones-cuerpo">
+            <b>Notificacion</b>
+            <p>revirsar las bitacoras aprendiz Marta Cano</p>
+        </div>
+        <div class="notificaciones-cuerpo">
+            <b>Notificacion</b>
+            <p>revirsar las bitacoras aprendiz Marta Cano</p>
+        </div>
+     </div>
+            
+<script src="JavaScript/semaforo.js"></script>
+</body>
+</html>

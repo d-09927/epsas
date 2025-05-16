@@ -1,0 +1,207 @@
+body{
+    background-color: #eef5ed;
+    font-family: sans-serif;
+}
+.barra{
+    height: 100%;
+    display: flex;
+
+}
+.contenido{
+    height: 97vh auto;
+    width:90% ;
+    margin-left: 50px;
+    background-color: rgb(231, 229, 229);
+    border-radius: 9px;
+    
+}
+
+.search-bar{
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(236, 219, 219, 0.5); 
+}
+input::placeholder{
+    color: #eef5ed;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+h1 {
+    margin-left: 60px;
+    color:#4CAF50
+}
+.nav-link{
+    background-color: rgb(38, 166, 34)   ;
+    width: 100;
+    height: 40px;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-color: rgb(38, 166, 34);
+}
+.nav-wide {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; 
+}
+
+.nav-wide > * { 
+  flex-grow: 1; 
+  text-align: center; 
+}
+
+.nav-wide a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  
+}
+.nav-wide a:hover{
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.nav-wide .search-bar {
+  padding: 8px;
+}
+.side button {
+    height: 80px;
+    width: 90px;
+    border-radius: 15px;
+    margin-left: 20px;
+    border-color: #4CAF50;
+    cursor: pointer;
+}
+
+
+.side:hover{
+    transform: scale(1.15);
+    transition: 0.3s;
+    
+}
+.header-area{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    font-size: 24px;
+}
+.header-area span{
+    color: #4CAF50;
+    margin: 0px 9px;
+}
+.contenedor-carpetas{
+    display: flex;
+    grid-template-columns:repeat(4 1fr);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.carpeta img{
+    width: 80px;
+}
+.carpeta{
+    margin: 20px 50px;
+    cursor: pointer;
+
+}
+.carpeta:hover{
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+.foto{
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.foto img{
+    width: 50px;
+    height: 50px;
+}
+.dato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+   
+}
+.usuario{
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    background-color: #eef5ed;
+    width: 280px;
+    height: 300px;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 35px;
+    margin-top: -600px;
+    margin-left: 170px;
+}
+.notificaciones{
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    background-color: #eef5ed;
+    width: 280px;
+    height: 300px;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 35px;
+    margin-top: -370px;
+    margin-left: 170px;
+}
+.notificaciones-cuerpo{
+    background-color: white;
+    border-radius: 15px;
+    width: 250px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 12px;
+}
+.notificaciones-cuerpo p{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.notificaciones-cuerpo b{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.atras{
+    width: 85px;
+    height: 30px;
+    border-radius: 9px;
+    border: none;
+    background-color: rgb(38, 166, 34);
+    color: white;
+    font-weight: bold;
+    margin-left: 25px;
+    cursor: pointer;
+}

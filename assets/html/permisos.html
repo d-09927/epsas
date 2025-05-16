@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/permisos.css">
+    <title>Permisos</title>
+</head>
+<body>
+    <div class="inicio">
+        <div class="titulo">
+            <h1>EPSAS</h1>
+        </div>
+            <h2>Permisos de Menú</h2>
+                <form class="campo">
+                    <div class="grupo">
+                        Programas de formación
+                        <select name="Programas" id="Programas">
+                            <option value="nada"></option>
+                            <option value="adso">adso</option>
+                            <option value="pae">produccion agropecuaria</option>
+                            <option value="cocina">cocina</option>
+                            <option value="multimedia">multimedia</option>
+                            <option value="agroindustrias">agroindustrias</option>
+                            <option value="fisica">educacion y deporte</option>
+                            <option value="vias">Insfraestructura vial</option>
+                            <option value="diseño">diseño arquitectonico</option>
+                        </select>
+                    </div>
+                    <div class="grupo">
+                        Area
+                        <select name="area" id="area">
+                            <option value="nada"></option>
+                            <option value="tic">TIC</option>
+                            <option value="pae">PAE</option>
+                            <option value="agroindustrias">Agroindustrias</option>
+                            <option value="bioconstruccion">bioconstruccion</option>
+                            <option value="cocina">cocina</option>
+                            <option value="deporte">deporte</option>
+                            </select>
+                    </div>
+                    <div class="grupo">
+                        Administrador
+                        <select name="Admin" id="Admin">
+                            <option value="nada"></option>
+                            <option value="aprendiz">aprendiz</option>
+                            <option value="instructor">instructor</option>
+                        </select>
+                    </div>
+                    <div class="grupo">
+                        Titulado
+                        <select name="Titulado" id="Titulado">
+                            <option value="nada"></option>
+                        </select>
+                    </div>
+                    <div class="grupo">
+                        ficha
+                        <select name="ficha" id="ficha">
+                            <option value="nada"></option>
+                        </select>
+                    </div>
+                    <button class="enviar" onclick="mifuncion()">Guardar</button>
+                <script>function mifuncion(){alert("Envio exitoso")};</script>
+                </form>
+    </div>
+</body>
+</html>

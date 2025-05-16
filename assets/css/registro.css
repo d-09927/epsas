@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    color: rgb(251, 250, 249);
+}
+.padre{
+    background-color: rgb(226, 216, 216);  
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.fondo{
+    height: 100vh;
+}
+.titul{
+    position: absolute;
+    color: rgb(38, 166, 34 );
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.form{
+    position: absolute;
+    color:grey;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 20px;
+    grid-gap: 20px;
+    columns: 2;
+    grid-template-rows: 2em 2em 2em 2em;
+    left: 190px;
+    bottom: 70px;
+}
+
+.border{
+    border-radius: 5px;
+    width: 550px;
+    height: 30px;
+    border-color: rgb(38, 166, 34);
+    border-style: double;
+    border-width: 3px;
+}
+.form select{
+    height: 30px;
+}
+.tipo{
+    width: 40px;
+    height: 20px;
+}
+.elect{
+    border-radius: 5px;
+    width: 550px;
+    height: 30px;
+    border-color: rgb(38, 166, 34);
+    border-style: double;
+    border-width: 3px;
+}
+.enviar{
+    background-color: rgb(38, 166, 34);
+    position: absolute;
+    left: 350px;
+    bottom: 90px;
+}
+.error{
+    font-size: 15px;
+}
