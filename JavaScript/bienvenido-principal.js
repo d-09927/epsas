@@ -21,5 +21,5 @@ function noti(){
     }
 }
 function cerrar(){
-    window.location= "http://127.0.0.1:5500/login.html"
+    window.location= "http://127.0.0.1:5501/index.html"
 }

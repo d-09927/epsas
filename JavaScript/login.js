@@ -24,5 +24,5 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 });
 
 function enviar(){
-    window.location = "bienvenido-principal.html";
+    window.location = "http://127.0.0.1:5501/assets/html/bienvenido-principal.html";
 }
