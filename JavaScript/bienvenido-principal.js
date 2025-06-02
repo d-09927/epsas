@@ -2,6 +2,10 @@ function carpeta(){
     window.location= "bienvenido-area.html"
 }
 
+function formatos(){
+    window.location = "formatos.html"
+}
+
 function usu(){
     var usuario= document.getElementsByClassName("usuario")[0];
     if(usuario.style.visibility == "hidden"){

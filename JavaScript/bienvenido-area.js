@@ -1,6 +1,6 @@
 
 function carpeta(){
-    window.location = "bienvenido.html";
+    window.location = "bienvenido-ficha.html";
 }
 function usu(){
     var usuario= document.getElementsByClassName("usuario")[0];

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bienvenido</title>
+    <title>Formatos</title>
     <link rel="stylesheet" href="/assets/css/bienvenido.css">
 </head>
 <body>
@@ -28,53 +28,52 @@
             </div>
         </div>
         <div class="contenido">
-        <header>
-            <h1>Bienvenido a <br> Etapa Productiva</h1>
-        </header>
-        <nav class="nav-link">
-            <ul class="nav-wide">
-                <a href="">soporte</a>
-                <a href="">nosotros</a>
-                <input type="text" class="search-bar" placeholder="barra de búsqueda">
-            </ul>
-
-        </nav>
-        <div class="area">
-            <div class="header-area">
-              TITULADOS
-            </div>
+            <header>
+                <h1>Bienvenido a <br> Etapa Productiva</h1>
+            </header>
+            <nav class="nav-link">
+                <ul class="nav-wide">
+                    <a href="">soporte</a>
+                    <a href="">nosotros</a>
+                    <input type="text" class="search-bar" placeholder="barra de búsqueda">
+                </ul>
+            </nav>
+            <div class="area">
+                <div class="header-area">
+                    Formatos
+                </div>
         </div>    
             <div class="contenedor-carpetas">
                 <div class="carpeta">
                     <div class="img">
-                        <img src="/assets/img/carpeta-abierta.svg" alt="" onclick="carpeta()">
+                        <img src="/assets/img/pdf.png" alt="" onclick="miFuncion()">
                     </div>
                     <div class="titulado">
-                        titulado
+                        Reglamento del <br> Aprendiz
                     </div>
                 </div>
                 <div class="carpeta">
                     <div class="img">
-                        <img src="/assets/img/carpeta-abierta.svg" alt="" onclick="carpeta()">
+                        <img src="/assets/img/pdf.png" alt="" onclick="miFuncion()">
                     </div>
                     <div class="titulado">
-                        titulado
+                        Contrato de aprendizaje
                     </div>
                 </div>
                 <div class="carpeta">
                     <div class="img">
-                        <img src="/assets/img/carpeta-abierta.svg" alt="" onclick="carpeta()">
+                        <img src="/assets/img/pdf.png" alt="" onclick="miFuncion()">
                     </div>
                     <div class="titulado">
-                        titulado
+                        Pasantia
                     </div>
                 </div>
                 <div class="carpeta">
                     <div class="img">
-                        <img src="/assets/img/carpeta-abierta.svg"alt="" onclick="carpeta()">
+                        <img src="/assets/img/pdf.png"alt="" onclick="miFuncion()">
                     </div>
                     <div class="titulado">
-                        titulado
+                        Vinculacion laboral
                     </div>
                 </div>
                
@@ -82,42 +81,47 @@
             <div class="contenedor-carpetas">
                 <div class="carpeta">
                     <div class="img">
-                        <img src="/assets/img/carpeta-abierta.svg" alt="" onclick="carpeta()">
+                        <img src="/assets/img/pdf.png" alt="" onclick="miFuncion()">
                     </div>
                     <div class="titulado">
-                        titulado
+                        Monitoria
                     </div>
                 </div>
                 <div class="carpeta">
                     <div class="img">
-                        <img src="/assets/img/carpeta-abierta.svg" alt="" onclick="carpeta()">
+                        <img src="/assets/img/pdf.png" alt="" onclick="miFuncion()">
                     </div>
                     <div class="titulado">
-                        titulado
+                        Proyecto Productivo
                     </div>
-                </div>
+                </div>   
                 <div class="carpeta">
                     <div class="img">
-                        <img src="/assets/img/carpeta-abierta.svg" alt="" onclick="carpeta()">
+                        <img src="/assets/img/pdf.png" alt="" onclick="miFuncion()">
+                        
                     </div>
                     <div class="titulado">
-                        titulado
-                    </div>
-                </div>
-                <div class="carpeta">
-                    <div class="img">
-                        <img src="/assets/img/carpeta-abierta.svg" alt="" onclick="carpeta()">
-                    </div>
-                    <div class="titulado">
-                        titulado
+                        Retiro Voluntario
                     </div>
                 </div>
             </div>
-            <button class="atras" onclick="atras()">atras</button>
+                <button class="atras" onclick="atras()">atras</button>
         </div>
-     </div>
 
-     <div class="usuario">
+
+                 <script>
+                function miFuncion() {
+                alert("¡Descargando Archivo!");
+                }
+
+                function atras(){
+                window.location= "bienvenido.html"
+                }
+                </script>
+
+
+
+    <div class="usuario">
         <div class="foto">
             <img src="/assets/img/usuario (1).svg" alt="" >
         </div>
@@ -138,6 +142,6 @@
             <p>revirsar las bitacoras del aprendiz Marta Cano</p>
         </div>
      </div>
-     <script src="/JavaScript/bienvenido.js"></script>
+
 </body>
 </html>

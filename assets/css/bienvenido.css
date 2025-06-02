@@ -93,6 +93,7 @@ h1 {
     justify-content: center;
     margin: 80px;
     font-size: 24px;
+    font-weight: bolder;
 }
 .header-area span{
     color: #4CAF50;
